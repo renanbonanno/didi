@@ -1,0 +1,108 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  
+}
+
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-weight: 700; /* Negrito para títulos */
+  font-size: 2.5em;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: solid 1px #222;
+    }
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    }
+.foto {
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.foto-centralizada {
+    margin: 20px auto;
+    width: 60%;   /* Define a largura da imagem como metade do container */
+    height: 400px; /* Mantém a proporção original */
+    border-radius: 0px; /* Opcional: cantos arredondados */
+
+}
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  border: solid 1px #222;
+}
+
+.main-content {
+  flex: 3;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.main-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+#divisão {
+    border: solid 1px #222;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+article p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
