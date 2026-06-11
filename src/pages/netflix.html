@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- parte de cima da netflix -->
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="../assets/netflix.png" alt="logo-netflic" width="50px">
+
+        </div>
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha Lista</a>
+        </nav>
+
+    </header>
+    <!-- parte inicial -->
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Rere e Didi</p>
+            <p class="detalhes">
+                <span>12 de Junho - 3° temporada</span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(207, 31, 31);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(207, 31, 31);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(207, 31, 31);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(207, 31, 31);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(207, 31, 31);"></i>
+                </span>
+                <p class="descrição">Feliz dia dos namorados para nos dois, eu amo passar essa data com você, e eu desejo passar todas pelo o resto da minha vida comemorando ao seu lado, e ter cada vez mais (temporadas) momentos juntos.Te amo meu amor</p>
+                <!-- botões -->
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i>Continuar</button>
+                    <button> <i class="fa-solid fa-star" style="color: rgb(0, 0, 0);"></i> Favoritar</button>
+                </div>
+            </p>
+        </div>
+    </section>
+    <section class = "momentos">
+        <h2>Meus melhores momentos com você</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="../assets/2024.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/2025.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/amor.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/flip.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/mesversario.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/neoquimica.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/primeiroano.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/formatura.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="../assets/dali.jpeg" alt=""></div>
+    
+  </div>
+
+
+</div>
+    </section>
+
+    <footer>
+        <p>Feito com <i class="fa-solid fa-heart" style="color: rgb(207, 31, 31);"></i> por Renan Bonanno</p>   
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    slidesPerView: 2,
+    spaceBetween: 10,
+    loop: true,
+    breakpoints: {
+        600: {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        900: {
+            loop: true,
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+    },
+});
+</script>
+</body>
+</html>
