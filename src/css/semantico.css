@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: black;
+}
+p{
+    color: aliceblue;
+    margin: 20px;;
+}
+
+.foto {
+    text-align: center;
+}
+.foto-centralizada {
+  margin: 20px auto;
+  width: 800px;
+  height: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
